@@ -9,3 +9,7 @@ end, { desc = "Goto reference" })
 map("n", "<F12>", function()
   Snacks.picker.lsp_definitions()
 end, { desc = "Goto definition" })
+
+map({ "n", "i", "v" }, "<D-s>", "<cmd>w<cr>", { desc = "Save file" })
+
+-- cenass
